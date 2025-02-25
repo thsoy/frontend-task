@@ -1,12 +1,12 @@
-import FlexBox from "ui/FlexBox";
+import { FlexBox } from "ui/FlexBox";
 import { Typography } from "ui/Typography";
 import { Badge } from "ui/Badge";
 import { Checkbox } from "ui/Checkbox";
 import { Bottom } from "ui/Bottom";
 import { Button } from "ui/Button";
-import Header from "ui/Header";
+import { Header } from "ui/Header";
 import { useRouter } from "next/router";
-import Icon from "ui/Icon";
+import { Icon } from "ui/Icon";
 import { useEffect, useState } from "react";
 import sumBy from "lodash-es/sumBy";
 

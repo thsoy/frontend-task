@@ -11,19 +11,28 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "ui": "workspace:*",
+    "@babel/runtime": "^7.26.9",
     "lodash-es": "^4.17.21",
-    "next": "^14.2.15",
+    "next": "14.0.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.15",
+    "ui": "workspace:*"
   },
   "devDependencies": {
-    "eslint-config": "workspace:*",
-    "typescript-config": "workspace:*",
-    "@types/node": "^22",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@babel/plugin-transform-runtime": "^7.26.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.13.5",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@types/styled-components": "^5.1.24",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-styled-components": "^2.1.4",
     "eslint": "^9.21.0",
-    "typescript": "5.7.3"
+    "eslint-config": "workspace:*",
+    "file-loader": "^6.2.0",
+    "typescript": "5.7.3",
+    "typescript-config": "workspace:*"
   }
 }

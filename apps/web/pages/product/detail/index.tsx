@@ -1,10 +1,10 @@
-import Accordion from "ui/Accordion";
+import { Accordion } from "ui/Accordion";
 import { Button } from "ui/Button";
-import FlexBox from "ui/FlexBox";
-import Header from "ui/Header";
-import Icon from "ui/Icon";
+import { FlexBox } from "ui/FlexBox";
+import { Header } from "ui/Header";
+import { Icon } from "ui/Icon";
 import { Typography } from "ui/Typography";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const DATA = {

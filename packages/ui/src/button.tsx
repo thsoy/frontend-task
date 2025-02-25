@@ -28,7 +28,7 @@ export function Button({
   fontSize,
   fontWeight,
   padding,
-}: IButton & ComponentPropsWithoutRef<"button">) {
+}: IButton) {
   return (
     <ButtonContainer
       onClick={onClick}

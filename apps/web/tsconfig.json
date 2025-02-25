@@ -1,5 +1,13 @@
 {
   "extends": "typescript-config/nextjs.json",
+  "strict": true,
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "jsx": "react",
+  "moduleResolution": "node",
+  "module": "esnext",
+  "target": "es5",
+  "lib": ["dom", "esnext"],
   "compilerOptions": {
     "plugins": [
       {

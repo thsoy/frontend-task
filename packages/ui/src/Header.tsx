@@ -1,11 +1,12 @@
+"use client";
 import {
   HeaderContainer,
   HeaderLeftContainer,
   HeaderTitleContainer,
 } from "./Header.styled";
-import Icon, { IconType } from "./Icon";
+import { Icon, IconType } from "./Icon";
 
-export default function Header({
+export function Header({
   icon,
   title,
   handleBack,

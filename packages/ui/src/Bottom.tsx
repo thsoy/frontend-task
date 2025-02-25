@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { BottomContaner, IBottom } from "./Bottom.styled";
 

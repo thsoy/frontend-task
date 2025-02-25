@@ -7,11 +7,11 @@ import {
   ContentsContainer,
   TitleWrap,
 } from "./Accordion.styled";
-import FlexBox from "./FlexBox";
-import Icon from "./Icon";
+import { FlexBox } from "./FlexBox";
+import { Icon } from "./Icon";
 import { Typography } from "./Typography";
 
-export default function Accordion({
+export function Accordion({
   title,
   contents,
 }: {

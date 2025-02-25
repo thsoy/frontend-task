@@ -2,7 +2,7 @@ import { IconContainer } from "./Icon.styled";
 
 export type IconType = "ArrowLeft" | "ArrowDown" | "ArrowRight" | "Close";
 
-export default function Icon({
+export function Icon({
   icon,
   width,
   height,
