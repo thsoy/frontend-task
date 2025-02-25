@@ -1,3 +1,4 @@
+"use client";
 import { FlexBox } from "ui/FlexBox";
 import { Typography } from "ui/Typography";
 import { Badge } from "ui/Badge";
@@ -5,12 +6,12 @@ import { Checkbox } from "ui/Checkbox";
 import { Bottom } from "ui/Bottom";
 import { Button } from "ui/Button";
 import { Header } from "ui/Header";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { Icon } from "ui/Icon";
 import { useEffect, useState } from "react";
 import sumBy from "lodash-es/sumBy";
 
-export default function Cart() {
+const MyCart = () => {
   const DATA = {
     result: "SUCCESS",
     data: [
@@ -212,7 +213,7 @@ export default function Cart() {
       </Bottom>
     </FlexBox>
   );
-}
+};
 
 interface IItem {
   imageUrl: string;
@@ -373,3 +374,4 @@ function Item({
     </FlexBox>
   );
 }
+export default MyCart;

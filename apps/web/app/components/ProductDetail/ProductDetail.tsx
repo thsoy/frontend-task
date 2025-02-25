@@ -1,3 +1,4 @@
+"use client";
 import { Accordion } from "ui/Accordion";
 import { Button } from "ui/Button";
 import { FlexBox } from "ui/FlexBox";
@@ -40,7 +41,7 @@ const DATA = {
   message: null,
   errorCode: null,
 };
-export default function Detail() {
+const Detail = () => {
   const { data } = DATA;
   const [size, setSize] = useState("");
   const [sizeAccordionText, setSizeAccordionText] = useState("");
@@ -169,7 +170,7 @@ export default function Detail() {
       </FlexBox>
     </FlexBox>
   );
-}
+};
 
 const AccordionContents = ({
   text,
@@ -184,3 +185,4 @@ const AccordionContents = ({
     </div>
   );
 };
+export default Detail;
